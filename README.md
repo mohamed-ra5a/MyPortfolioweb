@@ -23,7 +23,7 @@ MyPortfolio is a personal website where I showcase my projects, skills, and inte
    - images/
 3. Open `index.html` in any web browser.
 4. Use the navigation bar to explore the website pages.
-5. ## the second way is opening the playableURL:"https://mohamed-ra5a.github.io/AlittleProf.web/"
+5. ## the second way is opening the playableURL:"https://mohamed-ra5a.github.io/MyPortfolioweb/"
 
 ---
 
