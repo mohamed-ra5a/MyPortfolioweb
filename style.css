@@ -10,33 +10,41 @@
 
 header{
     background-color:#f0f0f0;
+
  width:100%;
       position:fixed;
  z-index:999;
        display:flex;
+
  justify-content:space-between;
    align-items:center;
         padding:10px 200px;
+
 }
 
 .logo{
  text-decoration:none;
       color:#3a6cf4;
+
    text-transform:uppercase;
  font-weight:700;
+
       font-size:1.8em;
 }
 
 .navigation a{
       color:#3a6cf4;
+
  text-decoration:none;
    font-size:1.1em;
        font-weight:500;
+
  padding-left:30px;
 }
 
 .navigation a:hover{
       color:#601cfc;
+
 }
 
 section{
@@ -47,23 +55,28 @@ section{
  width:100%;
        min-height:100vh;
    display:flex;
+
  align-items:center;
       background:url(images/por.png) no-repeat;
- background-size:cover;
+  background-size:cover;
          background-position:center;
+
       background-attachment:fixed;
 }
 
 .main h2{
  color:#fff;
       font-size:1.4em;
+
    font-weight:500;
 }
 
 .main h2 span{
       display:inline-block;
+
  margin-top:10px;
     color:#4e9eff;
+
        font-size:3em;
  font-weight:600;
 }
@@ -71,8 +84,10 @@ section{
 .main h3{
  color:#fff;
        font-size:2em;
+
  font-weight:700;
       letter-spacing:1px;
+
  margin-top:10px;
       margin-bottom:30px;
 }
@@ -81,13 +96,16 @@ section{
       color:#fff;
  background-color:#3a6cf4;
    text-decoration:none;
+
        font-size:1.1em;
  font-weight:600;
     display:inline-block;
          padding:0.9375em 2.1875em;
  letter-spacing:1px;
+
       border-radius:15px;
  margin-bottom:40px;
+
       transition:0.7s ease;
 }
 
@@ -99,12 +117,14 @@ section{
 .social-icons a{
  color:#fff;
       font-size:1.7em;
+
    padding-right:30px;
 }
 
 .title{
      display:flex;
  justify-content:center;
+
       color:#3a6cf4;
  font-size:2.2em;
       font-weight:800;
@@ -114,6 +134,7 @@ section{
 .content{
  display:flex;
       justify-content:center;
+
  flex-direction:row;
        flex-wrap:wrap;
 }
@@ -121,10 +142,13 @@ section{
 .card{
  background-color:#fff;
       width:21.25em;
+
    box-shadow:0 5px 25px rgba(1 1 1 / 15%);
  border-radius:10px;
+
        padding:25px;
  margin:15px;
+
      transition:0.7s ease;
 }
 
@@ -135,6 +159,7 @@ section{
 .card .icon{
  color:#3a6cf4;
       font-size:8em;
+
  text-align:center;
 }
 
@@ -145,6 +170,7 @@ section{
 .info h3{
  color:#3a6cf4;
       font-size:1.2em;
+
  font-weight:700;
    margin:10px;
 }
@@ -161,9 +187,12 @@ section{
  background-color:#fff;
       border:1px solid #fff;
  min-height:14em;
+
+
     width:23em;
  overflow:hidden;
       border-radius:10px;
+
  margin:20px;
    transition:0.7s ease;
 }
@@ -193,12 +222,15 @@ section{
  display:flex;
       justify-content:space-between;
  text-transform:uppercase;
+
     font-weight:800;
+
  margin-top:10px;
 }
 
 .more-details{
  text-decoration:none;
+
       color:#3a6cf4;
 }
 
@@ -210,6 +242,7 @@ section{
 
  header{
       padding:12px 20px;
+
  }
 
  .navigation a{
@@ -220,15 +253,15 @@ section{
       font-size:1.8em;
  }
 
- section{
-    padding:80px 20px;
+             section{
+         padding:80px 20px;
  }
 
  .main h2{
       font-size:1em;
  }
 
- .main h3{
+    .main h3{
     font-size:1.6em;
  }
 
@@ -240,15 +273,17 @@ section{
 
 @media (max-width:641px){
 
- body{
-      font-size:12px;
- }
+        body{
 
- .main h2{
-      font-size:0.8em;
- }
+        font-size:12px;
+    }
+
+    .main h2{
+         font-size:0.8em;
+   }
 
  .main h3{
+
     font-size:1.4em;
  }
 }
@@ -256,6 +291,7 @@ section{
 @media (max-width:300px){
 
  body{
-      font-size:10px;
+
+          font-size:10px;
  }
 }
